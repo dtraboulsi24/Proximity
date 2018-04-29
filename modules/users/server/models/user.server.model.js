@@ -68,6 +68,11 @@ var UserSchema = new Schema({
     type: String,
     trim: true
   },
+  location: {
+    type: String,
+    trim: true,
+    default: 'Orange County',
+  },
   email: {
     type: String,
     index: {
